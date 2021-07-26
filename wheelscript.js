@@ -1,4 +1,34 @@
-function wheelTwo(){
+/*New Code*/
+function generateWheel(num) {
+    let s = document.getElementById("wheel");
+    // reset container
+    s.innerHTML = "";
+    let d1 = document.createElement("div");
+    let d2 = document.createElement("div");
+    let d3 = document.createElement("div");
+    let d4 = document.createElement("div");
+    d1.id = "d1";
+    d1.className = "d1";
+    d2.id = "d2";
+    d2.className = "d2";
+    d3.id = "d3";
+    d3.className = "d3";
+    d4.id = "d4";
+    d4.className = "d4";
+
+      s.appendChild(d1);
+      d1.appendChild(d2);
+      d2.appendChild(d3);
+      d3.appendChild(d4);
+    for (let i = 1; i <= num; i++) {
+      let span = document.createElement("span");
+      span.classList.add("span"+i+"w"+num);
+      d4.appendChild(span);
+    }
+}
+
+
+/*function wheelTwo(){
     let s = document.getElementById("s1");
     let d1 = document.createElement("div");
     let d2 = document.createElement("div");
@@ -262,4 +292,4 @@ function wheelEight(){
     sp6.classList.toggle("span6w8");
     sp7.classList.toggle("span7w8");
     sp8.classList.toggle("span8w8");
-}
+}*/
