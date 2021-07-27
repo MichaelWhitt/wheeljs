@@ -256,50 +256,48 @@ span {
 }
 /*Wheel 8 Boxes*/
 .span1w8 {
-    clip-path: polygon(0 92%, 100% 50%, 0 8%);
-    background-color: #ffeb3b;
-    top: 25%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background-color: orange;
     left: 0;
 }
 .span2w8 {
-    clip-path: polygon(100% 92%, 0 50%, 100% 8%);
-    background-color: #e91e63;
-    right: 0;
-    top: 25%;
+    clip-path: polygon(0 0, 34% 0, 100% 0, 0% 100%);
+    background-color: red;
+    right:0;
+    top: 0;
 }
 .span3w8 {
-    clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
-    background-color: #4caf50;
-    bottom: 0;
-    left: 25%;
+clip-path: polygon(0 0, 0 100%, 100% 100%);
+  left: 0;
+  background-color: blue;
 }
 .span4w8 {
-    clip-path: polygon(50% 100%, 92% 0, 8% 0);
-    background-color: #3f51b5;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
     top: 0;
-    left: 25%;
+    right: 0;
+    background-color: purple;
 }
 .span5w8 {
-    clip-path: polygon(0 92%, 100% 50%, 0 8%);
-    background-color: #ffeb3b;
-    top: 25%;
-    left: 0;
+    clip-path: polygon(0 100%, 100% 0,    100% 100%);
+    background-color: green;
+    bottom: 0;
+    left:0;
 }
 .span6w8 {
-    clip-path: polygon(100% 92%, 0 50%, 100% 8%);
-    background-color: #e91e63;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    background-color: brown;
+    bottom: 0;
     right: 0;
-    top: 25%;
 }
 .span7w8 {
-    clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
-    background-color: #4caf50;
+    clip-path: polygon(0 0, 100% 100%, 0 100%);
+    background-color: yellow;
     bottom: 0;
-    left: 25%;
+    right: 0;
 }
 .span8w8 {
-    clip-path: polygon(50% 100%, 92% 0, 8% 0);
-    background-color: #3f51b5;
-    top: 0;
-    left: 25%;
+    clip-path: polygon(0 0, 34% 0, 100% 0, 0% 100%);
+    background-color: magenta;
+    bottom: 0;
+    left:0;
 }
